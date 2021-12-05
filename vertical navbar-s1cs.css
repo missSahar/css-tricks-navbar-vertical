@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body {
+  background-color: #fff;
+  color: #555;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+}
+
+ul#menu {
+  width: 250px;
+  position: fixed; /* change to 'absolute' if you don't want it "sticky" */
+  top: 0;
+  left: calc(50% - (250px / 2));
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  z-index: 1000;
+}
+ul#menu li {
+  border-top: 1px solid #70308D;
+  border-bottom: 1px solid #8342a1;
+}
+ul#menu li a {
+  text-decoration: none;
+  color: #ccc;
+  padding: 10.5px 11px;
+  background-color: #70308D;
+  display: block;
+}
+ul#menu li a:hover, ul#menu li a.active {
+  background-color: #8342a1;
+  color: #fff;
+}
